@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.wowkster.rideplayers.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "rideplayers.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "EntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
